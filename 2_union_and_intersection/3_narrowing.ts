@@ -145,3 +145,17 @@ if(humanOrDog2.type === 'human') {
 } else {
     humanOrDog2;
 }
+
+// 8 Exhuastiveness Checking
+switch(humanOrDog2.type) {
+    case 'human' :
+        humanOrDog2;
+        break;
+    case 'dog' :
+        humanOrDog2
+        break;
+    default :
+    humanOrDog2
+    const _check : never = humanOrDog2;
+    break;
+}
