@@ -29,7 +29,7 @@ let anyVar: any;
 anyVar = 100;
 anyVar = '코드팩토리';
 anyVar = true;
-// any는 자바스크립트의 기본타입과 같다. 적절하게 과하게 남용X
+// any는 자바스크립트의 기본타입과 같다. 적절하게 사용하고 과하게 남용X
 
 let testNumber: number = anyVar;
 let testString: string = anyVar;
@@ -41,6 +41,9 @@ unknownType = '코드팩토리';
 unknownType = true;
 
 // never - 어떠한 값도 저장되거나 반환되지 않을때 사용하는 타입
+// let neverType: never = null;
+// let neverType: never = undefined;
+// let neverType: never = 'test';
 // 함수 , 인터섹션
 
 /* 
@@ -48,7 +51,7 @@ unknownType = true;
 */
 
 const koreanGirlGroup : string[] = ['아이브', '레드벨벳'];
-// string[] -> string 으로 리스트 만들겠다.
+// string[] -> string 으로 리스트(배열) 만들겠다.
 const booleanList: boolean[] = [true, false]
 
 
